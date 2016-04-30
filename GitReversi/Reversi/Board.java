@@ -14,6 +14,11 @@ public class Board {
 
 	//turn over check stone position ???
 
+	//石の数カウント　色を受けて数を返す
 
+	//string beffer sb.tostring(なんかの文字返す）
 
+	//draw masuにおそらく石を表示
+
+	//out panelがNULLじゃないときパネルをアップデートする
 }
