@@ -15,7 +15,7 @@ public class Board {
 		setgHeight(height);
 		for (int i = 0; i < BOARD_SIZE; i++){
 			for (int j = 0; j < BOARD_SIZE; j++){
-				masus[i][j] = new Masu(getgWidth()/BOARD_SIZE,getgWidth()/BOARD_SIZE*i,getgHeight()/BOARD_SIZE*j);
+				masus[i][j] = new Masu(this.gWidth/BOARD_SIZE,this.gWidth/BOARD_SIZE*i,this.gHeight/BOARD_SIZE*j);
 			}
 		}
 
