@@ -2,6 +2,8 @@ package Reversi;
 
 import java.awt.Color;
 import java.awt.Dimension;
+
+import javax.swing.JPanel;
 //import java.awt.Graphics;
 
 public class ConsolePanel extends JPanel{
@@ -10,17 +12,18 @@ public class ConsolePanel extends JPanel{
 
 	//str
 
-	public ConsolPane(){
+	public void ConsolPane(){
 		setPreferredSize(new Dimension(PANEL_WIDTH, PANEL_HEIGHT));
 		setBackground(Color.BLACK);
 	}
 
 	//public str
 
-	public void paintComponent(Graphics g){
-		
+	/*public void paintComponent(Graphics g){
+
 
 	}
+	*/
 
 
 }
