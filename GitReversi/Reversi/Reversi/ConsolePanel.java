@@ -7,6 +7,8 @@ import javax.swing.JPanel;
 //import java.awt.Graphics;
 
 public class ConsolePanel extends JPanel{
+	public ConsolePanel() {
+	}
 	private static final int PANEL_WIDTH = 800;
 	private static final int PANEL_HEIGHT = 50;
 
