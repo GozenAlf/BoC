@@ -21,7 +21,9 @@ public class Board {
 		//setgSize();
 		setgWidth(width);	//パネルサイズの800が入る
 		setgHeight(height);
-		draw(null, 10,gWidth,gHeight);//drawは勝手に呼び出される？
+		
+	
+		
 		init();
 
 		}
@@ -48,11 +50,11 @@ public class Board {
 		Masu[5][4] = Stone.BLACK;
  	};
 
- 	public void draw(Graphics g,int size, int x , int y){
+	public void draw(Graphics g){
  		g.setColor(backgroundColor);
-		g.fillRect(10, 10, gWidth, gHeight);
+		g.fillRect(10, 10, 10, 10);
 		g.setColor(frameColor);
-		g.drawRect(10, 10, gWidth, gHeight);
+		g.drawRect(10, 10, 10, 10);
  	}
 
 			/*if (stone != null) {

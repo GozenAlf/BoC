@@ -9,11 +9,11 @@ public class ReversiFrame extends JFrame {
 		public ReversiFrame(){
 		setTitle("リバーシ");
 		//setLayout(new BorderLayout());
-		ConsolePanel consolPanel = new ConsolePanel();
+		//ConsolePanel consolPanel = new ConsolePanel();
 		ReversiPanel panel = new ReversiPanel();	//(consolPanel)なんでこの引数つかうかわからないのでいったん抜いとく
 		Container contentPane = getContentPane();
 		contentPane.add(panel,BorderLayout.NORTH);
-		contentPane.add(consolPanel,BorderLayout.SOUTH);
+		//contentPane.add(consolPanel,BorderLayout.SOUTH);
 
 		pack();
 	}
